@@ -27,7 +27,7 @@ public class Program
         }
 
         app.UseHttpsRedirection(); // Erzwingt HTTPS, um sichere Verbindungen zu verwenden
-        app.UseAuthorization();    // Aktiviert die Autorisierung (hier nicht konfiguriert)
+        app.UseAuthorization();    // Aktiviert die Autorisierung 
 
         // Verbindet Controller-Endpunkte (z.B. api/Mine) mit der Anwendung
         app.MapControllers();
